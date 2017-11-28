@@ -1,0 +1,34 @@
+#header {
+	text-align: center;
+	margin: auto;
+	width: 85%;
+	padding: 2%;
+}
+
+#disclaimer {
+	text-align: center;
+	background: grey;
+	margin: auto;
+	width: 85%;
+	padding: 2%;
+	opacity: .8;
+}
+
+#quizContainer {
+	text-align: center;
+	background: grey;
+	margin: auto;
+	width: 85%;
+	padding: 2%;
+	opacity: .8;
+}
+
+#button {
+
+	text-align: center;
+	background: grey;
+	margin: auto;
+	width: 85%;
+	padding: 2%;
+	opacity: .8;
+}
