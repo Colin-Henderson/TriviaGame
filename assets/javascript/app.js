@@ -30,6 +30,7 @@ function displayResults() {
 	var q5 = document.forms.form.q5.value;
 	var q6 = document.forms.form.q6.value;
 
+// The q variables correspond with the  answer variables [i]
 	var questions = [q1, q2, q3, q4, q5, q6];
 
 	var answers = ["c", "d", "d", "d", "d", "d"];
@@ -60,7 +61,7 @@ function countdown() {
 	if(timeLeft == -1) {
 		clearTimeout(timerID);
 		// Havent made this function yet but we will
-		displayResults();
+		// displayResults();
 	} else {
 		document.getElementById("timer").innerHTML = timeLeft + " second(s) remaining";
 		timeLeft--;
