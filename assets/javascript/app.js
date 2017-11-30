@@ -43,15 +43,19 @@ function displayResults() {
 			points = points + 1;
 		}
 	}
+	// Displays the resuslts in the results div
+	document.getElementById("Results").innerHTML = "Your scored " + points + " out of 6 points";
 };
 
 
-var timeLeft = 30;
-var timerID = setInterval(countdown, 1000);
+var timeLeft = 5;
+var timerID = null; 
 
 
 // Function to make quiz appear and start disappear and initiate countdown
 function startQuiz() {
+	// reassign the var timeid  
+	timerID = setInterval(countdown, 1000);
 	document.getElementById("quizContainer").style="display:block";
 	document.getElementById("button").style="display:none";
 	countdown();
@@ -61,12 +65,13 @@ function countdown() {
 	if(timeLeft == -1) {
 		clearTimeout(timerID);
 		// Havent made this function yet but we will
-		// displayResults();
+		displayResults();
 	} else {
 		document.getElementById("timer").innerHTML = timeLeft + " second(s) remaining";
 		timeLeft--;
 	}
 };
+
 
 
 
