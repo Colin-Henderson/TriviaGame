@@ -15,8 +15,8 @@
 
 // Once the time runs out it will display the answer stats 
 
-
-// CURRENT BUGS: starts the quiz timer before hitting start
+// UPDATE no more bugs other than Start Button
+// OLD BUGS: starts the quiz timer before hitting start
 		// doesnt display results after completing
 		// need the start button to be center
 		// should probably jumble up answers
