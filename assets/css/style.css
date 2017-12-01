@@ -1,43 +1,75 @@
+
 #header {
-	text-align: center;
 	margin: auto;
-	width: 85%;
+	width: 95%;
 	padding: 2%;
+	border: solid 4px;
+	border-color: orangered;
+	border-radius: 15px;
+
 }
 
 #disclaimer {
+	font-family: 'Walter Turncoat', cursive;
 	text-align: center;
 	background: grey;
 	margin: auto;
 	width: 85%;
 	padding: 2%;
 	opacity: .8;
+	border: solid 4px;
+	border-color: orangered;
+	border-radius: 15px;
 }
 
 #quizContainer {
+	font-family: 'Walter Turncoat', cursive;
 	text-align: center;
 	background: grey;
 	margin: auto;
 	width: 85%;
 	padding: 2%;
 	opacity: .8;
+	border: solid 4px;
+	border-color: orangered;
+	border-radius: 0px 0px 15px 15px;
 }
 
 #button {
-
+	font-size: 40px;
+	font-family: 'Walter Turncoat', cursive;
 	text-align: center;
 	background: grey;
 	margin: auto;
-	width: 85%;
+	width: 100%;
 	padding: 2%;
 	opacity: .8;
+	border: solid 4px;
+	border-color: orangered;
+
 }
 
 #Results {
+	font-family: 'Walter Turncoat', cursive;
 	text-align: center;
+	font-size: 14;
 	background: grey;
 	margin: auto;
 	width: 85%;
 	padding: 2%;
 	opacity: .8;
+	border: solid 4px;
+	border-color: orangered;
+	border-radius: 15px 15px 0px 0px;
+
+}
+
+#dustin {
+	margin: auto;
+	display:none;
+	width: 25%;
+	align-content: middle;
+	border-radius: 90%;
+	border: solid 4px;
+	border-color: orangered;
 }

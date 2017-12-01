@@ -3,17 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Stranger Things Trivia</title>
-	  <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	</head>
-	<div id="header"><img  src="assets/images/strangerthings-trivia.jpg"></div>
-	<!-- Initial button -->
-<div id="content">
-	<p id="disclaimer">DISCLAIMER: May potentially contain spoilers</p>
-	<button id="button" onclick="startQuiz()">Start</button>
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+</head>
+<div>
+	<img id="header" src="assets/images/strangerthings-trivia.jpg">
 </div>
-<div id="Results"></div>
-
+	<!-- Initial button -->
+<div type="container" id="content">
+	<h2 id="disclaimer">DISCLAIMER: May potentially contain spoilers</h2>
+	<button style="margin:auto" id="button" onclick="startQuiz()">Start</button>
+	<img id="dustin" src="assets/images/Dustin.png">
+	<h1 id="Results"></h1>
+</div>
 
 <container id="quizContainer" style="display:none">
 	<div id="timer">Timer here</div>
@@ -30,7 +33,7 @@
 			<input type="radio" name="q2" value="c">C. The downside up<br>
 			<input type="radio" name="q2" value="d">D. The upside down<br>
 
-			<h2>3. Who of the following is not a main character</h2>
+			<h2>3. Who of the following is not a main character?</h2>
 			<input type="radio" name="q3" value="a">A. Dustin<br>
 			<input type="radio" name="q3" value="b">B. Lucas<br>
 			<input type="radio" name="q3" value="c">C. Mike<br>
@@ -42,17 +45,41 @@
 			<input type="radio" name="q4" value="c">C. Thirteen<br>
 			<input type="radio" name="q4" value="d">D. Eleven<br>
 			
-			<h2>5. What is the Sheriffs name</h2>
+			<h2>5. What is the Sheriffs name?</h2>
 			<input type="radio" name="q5" value="a">A. Johnny<br>
 			<input type="radio" name="q5" value="b">B. Captain<br>
 			<input type="radio" name="q5" value="c">C. Topher<br>
 			<input type="radio" name="q5" value="d">D. Hopper<br>
 
-			<h2>6. Which of the following was Sean Astin, who plays Bob Newby in Stranger things, NOT in</h2>
+			<h2>6. Which of the following was Sean Astin, who plays Bob Newby in Stranger things, NOT in?</h2>
 			<input type="radio" name="q6" value="a">A. Rudy<br>
 			<input type="radio" name="q6" value="b">B. Lord of The Rings<br>
 			<input type="radio" name="q6" value="c">C. 50 first dates<br>
 			<input type="radio" name="q6" value="d">D. Meet the fockers<br>
+
+			<h2>7. What was the name of the creature that Dustin found in his trashcan?</h2>
+			<input type="radio" name="q7" value="a">A. Garth<br>
+			<input type="radio" name="q7" value="b">B. Dart<br>
+			<input type="radio" name="q7" value="c">C. Bartholomew<br>
+			<input type="radio" name="q7" value="d">D. Craig<br>
+
+			<h2>8. What kind of car does the Sheriff drive?</h2>
+			<input type="radio" name="q8" value="a">A. Ford Bronco<br>
+			<input type="radio" name="q8" value="b">B. Chevy Blazer<br>
+			<input type="radio" name="q8" value="c">C. Dodge Durango<br>
+			<input type="radio" name="q8" value="d">D. GMC Sierra<br>
+
+			<h2>9. While missing, how does Will communicate with his family in season 1?</h2>
+			<input type="radio" name="q9" value="a">A. With a Walkie Talkie<br>
+			<input type="radio" name="q9" value="b">B. Christmas Lights and the Alphabet painted on a wall<br>
+			<input type="radio" name="q9" value="c">C. Through the television signals<br>
+			<input type="radio" name="q9" value="d">D. Messages via carrier pidgeon<br>
+
+			<h2>10. Who is the new girl in Season 2 who is a phenom in the arcade?</h2>
+			<input type="radio" name="q10" value="a">A. Katie<br>
+			<input type="radio" name="q10" value="b">B. Joyce<br>
+			<input type="radio" name="q10" value="c">C. Max<br>
+			<input type="radio" name="q10" value="d">D. Mary<br>
 
 		</form>
 </container>
